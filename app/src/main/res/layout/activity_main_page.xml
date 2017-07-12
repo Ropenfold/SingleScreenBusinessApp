@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="stuartroper.com.singlescreenbusinessapp.MainPage">
+
+
+    <ImageView
+        android:id="@+id/shenleybadge"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/shenleyimage" />
+
+    <TextView
+        android:id="@+id/shenleytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shenleybadge"
+        android:text="@string/business_name"
+        android:textSize="16dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/addressandicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shenleytext"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/googlelocationblack"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:text="@string/address"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/phoneandicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/addressandicon"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/googlephoneicon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:text="@string/telephonenumber"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/phoneandicon"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clubdescription"
+            android:paddingTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

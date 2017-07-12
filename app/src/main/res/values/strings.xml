@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SingleScreenBusinessApp</string>
+    <string name="business_name">Shenley Fields SYS Cricket Club</string>
+    <string name="address">Shenley lane Community Association and Sports Centre, 472 Shenley Lane, Northfield, Birmingham, B29 4HZ</string>
+    <string name="telephonenumber">07822353521</string>
+    <string name="clubdescription">Shenley Fields SYS are based in Northfield, Birmingham and play around 30 matches each season.
+        The standard is equivalent to a reasonable clubs 2nd or 3rd XI and we welcome players of all ages and abilities.
+        In 2015 Shenley Fields has successfully entered a second side into the Warwickshire league.</string>
+</resources>
